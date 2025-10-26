@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Professional Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PHFRE298WN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PHFRE298WN');
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#home" class="logo"> Ruliana</a>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="avatar">
+                <img src="img/hero-image.jpg" alt="Profil Avatar" class="hero-image">
+            </div>
+            <!-- <h1>Front-End Developer, Creative & UI/UX Designer</h1>
+            <p>Front-End Developer, Creatif dan UI/UX Designer dengan keahlian dalam merancang serta mengembangkan antarmuka digital yang menarik. Menguasai prinsip desain pengalaman pengguna, estetika visual, dan implementasi kode front-end yang efisien. Berorientasi pada hasil dan kolaboratif dalam setiap proses kreatif.</p> -->
+            <h1>Creative & Editor</h1>
+            <p>Bertugas merumuskan ide-ide segar dan visual yang kuat, serta melakukan proses editing yang teliti untuk menghasilkan materi konten (foto, video) yang berkualitas tinggi dan sesuai dengan brand.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">
+                    <i class="fas fa-eye"></i> Lihat Pekerjaan Saya
+                </a>
+                <button class="btn btn-secondary" id="download-cv-btn">
+                    <i class="fas fa-download"></i> Unduh CV
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Portfolio</h2>
+                <p>Berikut adalah beberapa proyek terbaru saya yang menunjukkan keterampilan dan keahlian saya</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="img/podcast.jpg" alt="Thumbnail podcast" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Capcut</span>
+                        </div>
+                        <h3>Lulusan Seni? Ini Alasan Banyak yang Gagal Hidup dari Karyanya || One, Two, TAKE! EPS 6</h3>
+                        <p>Sebagai video editor, saya menyunting penuh episode podcast ini. Mulai dari penyesuaian footage, penyelarasan audio, penambahan bumper, dan sedikit transisi untuk tampilan yang konsisten dan menarik.</p>
+                        <table style="font-size: 12px;font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                            <tr>
+                                <td>Project Type</td>
+                                <td>:</td>
+                                <td>Podcasts (Video)</td>
+                            </tr>
+                            <tr>
+                                <td>Production House</td>
+                                <td>:</td>
+                                <td>Rossemmaa</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>:</td>
+                                <td>Video Editor</td>
+                            </tr>
+                        </table>
+                        <div class="live-card">
+                            <button id="live-button" class="live-button" style="border: none;background-color: transparent;color: blue;font-size: 14px;">Lihat Video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/vlog.png" alt="Thumbnail vlog" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Canon</span>
+                            <span class="tag">Capcut</span>
+                        </div>
+                        <h3>TAKE VO Hari Ini! Ada Suara Baru di Studio?!</h3>
+                        <p>Selama magang di Rossemmaa, saya bertugas sebagai cameraman dan editor. Saya menangani pengambilan gambar serta seluruh proses pascaproduksi, mulai dari penyusunan timeline, sinkronisasi audio-video, cut to cut, hingga penyesuaian warna dan grafis agar hasil tampak Menarik.</p>
+                        <table style="font-size: 12px;font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                            <tr>
+                                <td>Project Type</td>
+                                <td>:</td>
+                                <td>Vlog (Video)</td>
+                            </tr>
+                            <tr>
+                                <td>Production House</td>
+                                <td>:</td>
+                                <td>Rossemmaa</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>:</td>
+                                <td>Cameraman & Video Editor</td>
+                            </tr>
+                        </table>
+                        <div class="live-card">
+                            <button id="live-button" class="live-button" style="border: none;background-color: transparent;color: blue;font-size: 14px;">Lihat Video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/Talking_head_eps1.png" alt="EKSPERIMEN! Membuat Animasi dengan Tools Sederhana | ROSSEMMAGANG EPS 1" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Capcut</span>
+                        </div>
+                        <h3>EKSPERIMEN! Membuat Animasi dengan Tools Sederhana | ROSSEMMAGANG EPS 1</h3>
+                        <p>Dalam proyek ini, saya berperan sebagai Talent dan Editor. Saya menyampaikan materi seputar pembuatan naskah dan editing animasi secara menarik, serta menangani pascaproduksi meliputi pemotongan video, sinkronisasi audio, efek visual, teks, dan transisi untuk memperkuat storytelling.</p>
+                        <table style="font-size: 12px;font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                            <tr>
+                                <td>Project Type</td>
+                                <td>:</td>
+                                <td>Talking Head (Video)</td>
+                            </tr>
+                            <tr>
+                                <td>Production House</td>
+                                <td>:</td>
+                                <td>Rossemmaa</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>:</td>
+                                <td>Talent & Video Editor</td>
+                            </tr>
+                        </table>
+                        <div class="live-card">
+                            <button id="live-button" class="live-button" style="border: none;background-color: transparent;color: blue;font-size: 14px;">Lihat Video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/Talking_head_eps2.png" alt="EKSPERIMEN! Membuat Animasi dengan Tools Sederhana | ROSSEMMAGANG EPS 2" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Capcut</span>
+                        </div>
+                        <h3>EKSPERIMEN! Membuat Animasi dengan Tools Sederhana | ROSSEMMAGANG EPS 2</h3>
+                        <p>Saya berperan sebagai Talent dan Video Editor. Saya menyampaikan materi editing animasi di CapCut serta menangani pascaproduksi, mulai dari penyusunan timeline, sinkronisasi audio, hingga penambahan teks, efek, dan penyesuaian warna.</p>
+                        <table style="font-size: 12px;font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                            <tr>
+                                <td>Project Type</td>
+                                <td>:</td>
+                                <td>Talking Head (Video)</td>
+                            </tr>
+                            <tr>
+                                <td>Production House</td>
+                                <td>:</td>
+                                <td>Rossemmaa</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>:</td>
+                                <td>Talent & Video Editor</td>
+                            </tr>
+                        </table>
+                        <div class="live-card">
+                            <button id="live-button" class="live-button" style="border: none;background-color: transparent;color: blue;font-size: 14px;">Lihat Video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/Talking_head_eps3.png" alt="EKSPERIMEN! Membuat Animasi dengan Tools Sederhana | ROSSEMMAGANG EPS 3" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Capcut</span>
+                        </div>
+                        <h3>EKSPERIMEN! Membuat Animasi dengan Tools Sederhana | ROSSEMMAGANG EPS 3</h3>
+                        <p>Saya berperan sebagai Talent dan Video Editor. Sebagai Talent, saya tampil di pembuka dan penutup video. Sebagai Editor, saya menangani pascaproduksi: pemotongan, sinkronisasi audio, color correction, serta penambahan teks dan grafis pendukung.</p>
+                        <table style="font-size: 12px;font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                            <tr>
+                                <td>Project Type</td>
+                                <td>:</td>
+                                <td>Talking Head (Video)</td>
+                            </tr>
+                            <tr>
+                                <td>Production House</td>
+                                <td>:</td>
+                                <td>Rossemmaa</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>:</td>
+                                <td>Talent & Video Editor</td>
+                            </tr>
+                        </table>
+                        <div class="live-card">
+                            <button id="live-button" class="live-button" style="border: none;background-color: transparent;color: blue;font-size: 14px;">Lihat Video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/carousel_post_ig1.png" alt="Carousel Instagram Post" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Canva</span>
+                        </div>
+                        <h3>Perbedaan Video Biasa dengan Video Strategis</h3>
+                        <p>Membuat konten carousel edukatif di Instagram yang menjelaskan perbedaan video biasa dan video strategis, untuk meningkatkan pemahaman serta awareness audiens tentang pentingnya strategi dalam video marketing yang efektif dan berdampak.</p>
+                        <table style="font-size: 12px;font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                            <tr>
+                                <td>Project Type</td>
+                                <td>:</td>
+                                <td>Instagram Carousel</td>
+                            </tr>
+                            <tr>
+                                <td>Production House</td>
+                                <td>:</td>
+                                <td>Rossemmaa</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>:</td>
+                                <td>Designer</td>
+                            </tr>
+                        </table>
+                        <div class="live-card">
+                            <button id="live-button" class="live-button button-instagram" style="border: none;background-color: transparent;color: blue;font-size: 14px;">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/carousel_post_ig2.png" alt="Carousel Instagram Post" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Canva</span>
+                        </div>
+                        <h3>Masih Ragu Pakai Animasi? Ini 4 Masalah yang Bisa Diselesaikan Video Animasi</h3>
+                        <p>Membuat konten carousel edukatif di Instagram tentang empat masalah komunikasi visual dan solusi melalui video animasi, dengan desain menarik dan copywriting persuasif untuk meningkatkan awareness audiens terhadap manfaatnya bagi bisnis dan brand.</p>
+                        <table style="font-size: 12px;font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                            <tr>
+                                <td>Project Type</td>
+                                <td>:</td>
+                                <td>Instagram Carousel</td>
+                            </tr>
+                            <tr>
+                                <td>Production House</td>
+                                <td>:</td>
+                                <td>Rossemmaa</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>:</td>
+                                <td>Designer</td>
+                            </tr>
+                        </table>
+                        <div class="live-card">
+                            <button id="live-button" class="live-button button-instagram" style="border: none;background-color: transparent;color: blue;font-size: 14px;">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/Studio_session_project.png" alt="Carousel Instagram Post" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Canva</span>
+                        </div>
+                        <h3>Studio Session Porject</h3>
+                        <p>Membuat konten carousel Instagram bertema Studio Session Project yang menampilkan 3–4 foto dalam format collapse layout serta satu video pendek sebagai pelengkap visual. Konten ini menonjolkan suasana dan aktivitas di studio melalui kombinasi visual foto dan video yang dinamis untuk menciptakan storytelling yang menarik dan estetik.</p>
+                        <table style="font-size: 12px;font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;">
+                            <tr>
+                                <td>Project Type</td>
+                                <td>:</td>
+                                <td>Instagram Carousel (Foto & Video)</td>
+                            </tr>
+                            <tr>
+                                <td>Production House</td>
+                                <td>:</td>
+                                <td>Rossemmaa</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>:</td>
+                                <td>Designer</td>
+                            </tr>
+                        </table>
+                        <div class="live-card">
+                            <button id="live-button" class="live-button button-instagram" style="border: none;background-color: transparent;color: blue;font-size: 14px;">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <p>Saya memfokuskan diri dalam teknologi dan terus memperluas pengetahuan saya</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>HTML</span>
+                            <!-- <span>90%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 90%; width: 90%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>CSS</span>
+                            <!-- <span>85%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 85%; width: 85%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>JavaScript</span>
+                            <!-- <span>78%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 78%; width: 78%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Visual Studio Code</span>
+                            <span>-</span>
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 100%; width: 100%;"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-video"></i>Editing</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Capcut</span>
+                            <!-- <span>88%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 88%; width: 88%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Adobe Premiere</span>
+                            <!-- <span>60%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 60%; width: 60%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Alight Motion</span>
+                            <!-- <span>75%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 75%; width: 75%;"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Design in Desktop</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>UI/UX Design</span>
+                            <!-- <span>90%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 90%; width: 90%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Figma</span>
+                            <!-- <span>85%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 85%; width: 85%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Photoshop</span>
+                            <!-- <span>70%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 70%; width: 70%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>CorelDRAW</span>
+                            <!-- <span>60%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 60%; width: 60%;"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Design in Mobile</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>PixelLab</span>
+                            <!-- <span>95%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 95%; width: 95%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Canva</span>
+                            <!-- <span>95%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 95%; width: 95%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Ibis Pain X</span>
+                            <!-- <span>75%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 75%; width: 75%;"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i>Video</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Mobile Camera</span>
+                            <!-- <span>85%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 85%; width: 85%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Canon Camera</span>
+                            <!-- <span>50%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 50%; width: 50%;"></div> -->
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Sony Camera</span>
+                            <!-- <span>70%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 70%; width: 70%;"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i>Animation</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Flipaclip</span>
+                            <!-- <span>100%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 100%; width: 100%;"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i>MS Office</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Word</span>
+                            <!-- <span>80%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 80%; width: 80%;"></div> -->
+                        </div>
+                        <div class="skill-header">
+                            <span>Excel</span>
+                            <!-- <span>70%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 100%; width: 100%;"></div> -->
+                        </div>
+                        <div class="skill-header">
+                            <span>PowerPoint</span>
+                            <!-- <span>77%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 100%; width: 100%;"></div> -->
+                        </div>
+                        <div class="skill-header">
+                            <span>Google Docs</span>
+                            <!-- <span>95%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 100%; width: 100%;"></div> -->
+                        </div>
+                        <div class="skill-header">
+                            <span>Google Spreadsheets</span>
+                            <!-- <span>95%</span> -->
+                        </div>
+                        <div class="skill-bar">
+                            <!-- <div class="skill-progress" style="--target-width: 100%; width: 100%;"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Pelajari lebih lanjut tentang latar belakang, pengalaman, dan minat saya terhadap teknologi</p>
+            </div>
+            <div class="about-content">
+                <div>
+                    <img src="img/hero-image.jpg" alt="Professional developer at work" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h3>Creative & Editor</h3>
+                    <p>Saya adalah seorang Creative & Editor yang bersemangat dalam menggabungkan seni dan strategi. Peran inti saya adalah sebagai konseptor, di mana saya bertanggung jawab untuk merancang ide-ide segar, mengembangkan narasi yang kuat, dan menyusun storytelling yang mengaitkan emosi. Saya percaya pada kekuatan visual dan narasi yang berani untuk memastikan pesan Anda tidak hanya didengar, tetapi juga meninggalkan kesan mendalam dan abadi pada audiens yang tepat.</p>
+                    <p>Setelah fase konseptual, fokus saya beralih ke peran Editor. Ini adalah tahap di mana saya menerapkan ketelitian tertinggi mulai dari memoles copy, memastikan konsistensi visual, hingga menyempurnakan setiap frame atau detik konten (video/audio). Tujuan akhir saya adalah mentransformasi draf mentah menjadi produk yang berkualitas tinggi, bebas dari cela, dan secara sempurna merepresentasikan standar profesionalisme dan nilai yang ingin disampaikan.</p>
+                    <!-- <h3>Front-End Developer, Creative & UI/UX Designer</h3>
+                    <p>Berpengalaman lebih dari satu tahun di bidang pengembangan web, saya mengkhususkan diri dalam menciptakan pengalaman digital yang estetis dan efisien. Saya menikmati tantangan dalam mengubah masalah kompleks menjadi solusi sederhana melalui kode yang rapi dan desain yang intuitif.</p>
+                    <p>Bagi saya, pembelajaran tidak pernah berhenti. Dengan terus mengikuti perkembangan teknologi dan tren desain, saya berusaha menghadirkan solusi yang segar, inovatif, dan sesuai dengan kebutuhan klien masa kini.</p> -->
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Ongoing</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Total Clients</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" id="number">0+</div>
+                            <div class="stat-label">Visited</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Kami selalu terbuka untuk kesempatan kolaborasi atau komunikasi yang menyenangkan. Jangan ragu untuk menghubungi kami kapan saja.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ruliana.id12@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(+62) 821-1399-6496</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4>Whatsapp</h4>
+                            <p>0856-2492-3751</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Cianjur, Indonesia</p>
+                        </div>
+                    </div>
+                    <!-- <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Availability</h4>
+                            <p>Monday - Friday: 9AM - 6PM</p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" oninvalid="this.setCustomValidity('Enter your name')" oninput="this.setCustomValidity('')" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" oninvalid="this.setCustomValidity('Enter your email')" oninput="this.setCustomValidity('')" autocomplete="on" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" oninvalid="this.setCustomValidity('Enter your subject')" oninput="this.setCustomValidity('')" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" oninvalid="this.setCustomValidity('Enter your message')" oninput="this.setCustomValidity('')" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">R</div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Ruliana. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <button class="chat-toggle" id="chat-toggle">
+            <i class="fa-solid fa-comment fa-beat"></i>
+        </button>
+        <div class="chat-box" id="chat-box">
+            <div class="chat-header">
+                <h3>Chat with Me</h3>
+                <button class="chat-close" id="chat-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message received">
+                    Hi, saya R!<br>Ada yang bisa saya bantu?
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="Type your message...">
+                <button class="chat-send" id="chat-send">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CV Modal -->
+    <div class="cv-modal" id="cv-modal">
+        <div class="cv-modal-content">
+            <div class="cv-modal-header">
+                <h3>Download My CV</h3>
+                <button class="cv-modal-close" id="cv-modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cv-modal-body">
+                <div class="cv-preview">
+                    <img src="img/hero-image.jpg" alt="CV Preview" class="cv-image">
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/BU7vApAxUpo?si=pVlklv_2sZlHOWDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                    <!-- <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DOcxC7MEw2_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="14" style="width: 500px;">
+                    </blockquote>
+                    <script async src="//www.instagram.com/embed.js"></script> -->
+                </div>
+                <div class="cv-options">
+                    <a href="#" class="btn btn-primary" id="download-pdf">
+                        <i class="fas fa-file-pdf"></i> Download PDF
+                    </a>
+                    <a href="#" class="btn btn-secondary" id="download-image">
+                        <i class="fas fa-image"></i> Download Image
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Youtube Modal -->
+    <div class="yt-modal" id="yt-modal">
+        <div class="yt-modal-content">
+            <div class="yt-modal-header">
+                <h3>Youtube &#58;&#41;</h3>
+                <button class="yt-modal-close" id="yt-modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="yt-modal-body">
+                <div class="yt-preview">
+                    <iframe width="560" height="425" id="yt-show" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <!-- INSTAGRAM Modal -->
+    <div class="ig-modal" id="ig-modal">
+        <div class="ig-modal-content">
+            <div class="ig-modal-header">
+                <h3>Instagram &#58;&#41;</h3>
+                <button class="ig-modal-close" id="ig-modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="ig-modal-body">
+                <div class="ig-preview">
+                    <blockquote class="instagram-media" id="ig-block-quote" data-instgrm-version="14" style="width: 500px;">
+                    </blockquote>
+                    <script async src="//www.instagram.com/embed.js"></script>
+                    
+                </div>
+            </div>
+        </div>
+    </div>   
+    <script src="script.js"></script>
+</body>
+</html>
